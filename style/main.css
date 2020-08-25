@@ -1,0 +1,641 @@
+/* CSS rules to specify families
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* =============================================Все цвета заданные словами, являются временными для блоков!!! НЕ ЗАБЫТЬ УДАЛИТЬ!!! */
+
+/* God-help-me-please !important */
+
+* {
+    box-sizing: border-box;
+}
+
+.project-content-margin-adjuster {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.wrap {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 1400px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 0px;
+}
+
+.column {
+    display: inline-block;
+}
+
+/* ========================================Descriptions style================= */
+
+.description__header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 36;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.description__line {
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    border: 0px;
+}
+
+.description__description {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ========================================Descriptions style================= */
+
+/* =====================================header================================ */
+
+.header {
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.header__logo {
+    padding-left: 150px;
+    padding-top: 21px;
+}
+
+/* ================================navi buttons position========================= */
+
+.header__navi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 320px;
+    font-family: "Open Sans", AdobeInvisFont;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navi__button {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 46px;
+    transition: color .2s linear;
+    font-family: "Open Sans";
+}
+
+/* ===========================/navi buttons position==================== */
+
+/* ===========================First block: Axit ======================== */
+
+.block__axit {
+    background: url("/img/background/block-axit-background.jpeg");
+    color: #ffffff;
+    height: 641px;
+}
+
+.axit__left {
+    padding-top: 50px;
+    display: inline-block;
+    max-width: 512px;
+}
+
+.axit__left h2 {
+    font-family: "Raleway", AdobeInvisFont;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 33px;
+}
+
+.axit__left p {
+    font-family: "Raleway", AdobeInvisFont;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.axit__download {
+    background-color: #ffffff;
+    background-color: Transparent;
+    color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+    width: 135px;
+    height: 42px;
+    margin-top: 44px;
+    font-family: "Open Sans", AdobeInvisFont;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.axit__left hr {
+    display: inline-block;
+    width: 64px;
+    margin-top: 36px;
+}
+
+.axit__right {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 374px;
+    height: 368px;
+    position: relative;
+    top: -50px;
+    border-radius: 3px;
+    margin-left: 200px;
+}
+
+.axit__right form>* {
+    display: block;
+}
+
+.axit__right h3 {
+    font-family: "Open Sans", AdobeInvisFont;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.axit__right input {
+    font-family: "Open Sans", AdobeInvisFont;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.axit__right-text-input {
+    width: 285px;
+    height: 31px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #D6D6D6;
+    margin-top: 36px;
+}
+
+.axit__right-title {
+    color: #000000;
+    text-align: center;
+    height: 54px;
+    padding: 17px 0;
+}
+
+.axit__right-title-accent {
+    color: #d2691e;
+}
+
+.axit__button-get-started {
+    width: 374px;
+    height: 50px;
+    border: none;
+    background-color: #FF9B51;
+    color: #ffffff;
+    font-family: "Open Sans", AdobeinvisionFont;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    border-radius: 0 0 3px 3px;
+    font-family: "Open Sans", AdobeinvisionFont;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* ==========================/First block: Axit ========================= */
+
+/* ===========================Block: Social ==============================  */
+
+.block__social {
+    background-color: #FFFFFF;
+    width: 1400px;
+    display: inline-block;
+    height: 104px;
+    border-bottom: 1px solid #B7B7B7;
+    /* todo 3 px colors */
+}
+
+.social__title {
+    font-family: "Open Sans", AdobeinvisionFont;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 23px;
+}
+
+.social__text {
+    font-family: "Open Sans", AdobeinvisionFont;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.no-link-icon {
+    margin: 0 23px;
+    width: 46px;
+    height: 46px;
+}
+
+.social__img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+/* ===========================/Block: Social =============================  */
+
+/* ===========================Block: Tabs ================================  */
+
+.block__tabs {
+    background-color: #F5F5F5;
+    padding-top: 148px;
+}
+
+.tabs button {
+    color: #FFFFFF;
+    font-family: "OpenSans";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.first-tab {
+    width: 112px;
+    height: 112px;
+    background-color: #FF8B38;
+    margin: 0;
+    display: block;
+    border: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.second-tab {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    margin: 1px;
+    display: block;
+    border: none;
+}
+
+.third-tab {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    margin: 1px;
+    display: block;
+    border: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.tabs__download {
+    width: 121px;
+    height: 46px;
+    background-color: #FF8B38;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tabs-button {
+    padding-top: 51px;
+}
+
+.tabs-description {
+    width: 586px;
+    padding-left: 99px;
+}
+
+.tabs-description h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 52px;
+}
+
+.tabs-description p {
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.tabs-img {
+    width: 320px;
+    height: 253px;
+    padding-left: 103px;
+}
+
+.tabs {
+    padding-bottom: 148px;
+}
+
+/* ===========================/Block: Tabs ===============================  */
+
+/* ===========================Block: Awsome =============================  */
+
+.block__awsome {
+    background-color: #ffffff;
+}
+
+.block__awsome {
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.awsome__card-description {
+    text-align: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.awsome-card-font {
+    text-align: center;
+}
+
+.awsome-card-font {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.awsome__card {
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 32px;
+    width: 350px;
+}
+
+.awsome__card:last-child {
+    margin-right: 0
+}
+
+.awsome__cards-container {
+    /* font-size: 0px; */
+    max-width: 1222px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.icon {
+    height: 68px;
+    width: 68px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-lamp {
+    background-image: url(../img/block-awsome-lamp.png);
+}
+
+.icon-keyboard {
+    background-image: url(../img/block-awsome-keyboard.png);
+}
+
+.icon-lightning {
+    background-image: url(../img/block-awsome-lightning.png);
+}
+
+/* ===========================Block: Pricing =============================  */
+
+.block__pricing {
+    background-color: #F5F5F5
+}
+
+.pricing__card {
+    display: inline-block;
+    text-align: center;
+    width: 343px;
+}
+
+.pricing__cards-container {
+    padding: 80px 0 96px 0;
+}
+
+.block__pricing .block__description {
+    padding-top: 109px;
+}
+
+.basic-rate, .professional-rate {
+    margin-right: 51px;
+}
+
+.pricing-view-gray {
+    background-color: #333333;
+    color: #ffffff
+}
+
+.pricing-view-orange {
+    border-top: 4px solid #ff8b38;
+    background-color: #ff8b38;
+}
+
+.pricing-view-white {
+    background-color: #ffffff;
+}
+
+.pricing-view-white>* {
+    border-bottom: 1px solid #F5F5F5;
+    height: 40px;
+    line-height: 40px
+}
+
+.pricing__card-description {
+    height: 59px;
+    line-height: 59px
+}
+
+.pricing__card-price {
+    height: 100px;
+    font-size: 69px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.pricing__card-price-dollar-sign {
+    font-size: 27px;
+}
+
+.pricing__card-payment-type {
+    height: 51px;
+    line-height: 51px
+}
+
+.pricing-view-gray>* {
+    border-top: 1px solid #F5F5F5;
+}
+
+/* ===========================/Block: Pricing ============================  */
+
+/* ===========================Block: Customers =============================  */
+
+.block__customers .block__description {
+    padding-top: 109px;
+}
+
+.customer__card {
+    display: inline-block;
+    width: 273px;
+}
+
+.customer__card-review {
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.customer__card-person {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.customer__card-central {
+    margin: 0 156px;
+}
+
+.customer__cards-container {
+    padding: 55px 0 101px 0;
+}
+
+/* ===========================/Block: Customers ============================  */
+
+/* ============================Block: Stylish================================ */
+
+.stylish {
+    font-family: "Open Sans";
+    color: #ffffff;
+    height: 322px;
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(/img/background/block-stylish-background.jpg);
+    padding-top: 75px;
+    padding-bottom: 62px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stylish .description__description {
+    padding-bottom: 41px;
+}
+
+.stylish .description__line {
+    background-color: #ffffff
+}
+
+.stylish__button {
+    background: none;
+    color: white;
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 32px;
+    border-color: white;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.stylish__button:hover {
+    background: #000d0d;
+}
+
+/* 
+
+
+
+/* ===========================/Block: Stylish================================ */
+
+/* ============================Block: Contact================================ */
+
+.block__contacts .block__description {
+    padding: 109px 0 91px 0;
+}
+
+.contacts__inputs {
+    padding-right: 80px;
+}
+
+.contacts__inputs input {
+    border: none;
+    border-bottom: 1px solid #D6D6D6;
+    width: 527px;
+    height: 31px;
+    margin-top: 34px;
+}
+
+.contacts__message textarea {
+    display: block;
+    width: 527px;
+    height: 153px;
+    border: none;
+    border-bottom: 1px solid #D6D6D6;
+    resize: none;
+}
+
+.contacts__button {
+    margin: 43px 0 80px 0;
+}
+
+.contacts__button input {
+    display: block;
+    width: 148px;
+    height: 46px;
+    background-color: #ff8b38;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+/* ===========================/Block: Contact================================ */
+
+/* =========================== Footer ======================================= */
+
+footer {
+    text-align: center;
+    height: 101px;
+    background-color: #000000;
+}
+
+footer a {
+    margin-top: 39px;
+    text-decoration: none;
+    margin: 0 13px;
+}
+
+.social-icons img {
+    width: 23px;
+    height: 23px;
+}
+
+.bottom-text {
+    color: #F5F5F5;
+    opacity: 0.6;
+}
+
+.icons-container {
+    padding-top: 39px;
+}
+
+/* ===========================/Footer ======================================= */
