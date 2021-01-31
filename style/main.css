@@ -103,7 +103,7 @@ h1 {
 /* ===========================First block: Axit ======================== */
 
 .block__axit {
-    background: url("/img/background/block-axit-background.jpeg");
+    background: url("../img/background/block-axit-background.jpeg");
     color: #ffffff;
     height: 641px;
 }
@@ -529,7 +529,7 @@ h1 {
     color: #ffffff;
     height: 322px;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(/img/background/block-stylish-background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../img/background/block-stylish-background.jpg);
     padding-top: 75px;
     padding-bottom: 62px;
     background-repeat: no-repeat;
